@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formularios</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+        <form action="" id="form">
+            <input type="text" placeholder="Nome" id="nome" name="nome" class ="not-null">
+            <input type="text"placeholder="email" id="email" name="email" class ="not-null">
+            <input type="text"placeholder="cpf" id="cpf" name="cpf" class ="not-null">
+            <input type="text"placeholder="cep" id="cep" name="cep" class ="not-null">
+            <div class="addres">
+                <div class="input-group">
+                    <label for="rua">Rua</label>
+                    <input type="text" id="rua" size="50">
+                </div>
+                <div class="input-group">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" size="30">
+                </div>
+                <div class="input-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" size="50">
+                </div>
+                <div class="input-group">
+                    <label for="uf">UF</label>
+                    <input type="text" id="uf"size="2">
+                </div>
+            </div>
+            <button>Cadastrar</button>
+        </form>
+        <div id="mensagem"></div>
+        <script src=".js/form.js"></script>
+
+</body>
+</html>

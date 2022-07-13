@@ -1,0 +1,31 @@
+input{
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+label{
+    font-size: 1.4rem;
+}
+
+button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+}
+#mensagem p {
+    font-size: 1.4rem;
+    color: red;
+}
+form{
+    border:1px solid gainsboro;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+    -webkit-box-shadow: 10px 0 10px 5px #ABABAB;
+    box-shadow: 10px 0 10px 5px #ABABAB;
+}
+strong{
+    font-size: 1.4rem;
+}
